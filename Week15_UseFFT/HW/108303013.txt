@@ -1,0 +1,44 @@
+DFT Fourier Transform Library article:
+https://www.codeproject.com/Articles/1107480/DSPLib-FFT-DFT-Fourier-Transform-Library-for-NET-6
+
+English(Rearanged article):
+ - The input data length is constrained to be power of twos.
+
+ - .NET 4.0 includes a Complex number structure in the System.Numerics namespace and many math methods for operating on complex numbers.
+   DSPLib incorporates the .NET 4 Complex Number Type.
+
+ - DSPLib returns only the real part of the spectrum output data array (one half the length of the input data array)
+
+ - Most of the FT implementations you will find are not scaled properly for classical spectrum displays.
+   That is, the amplitude of a transformed signal varies with the number of transformed points: N.
+   This is disconcerting to most users.
+
+
+限制:
+
+ - 相依性
+    .NETStandard, Version = v2.0
+
+ - FFT演算法使用條件
+    1. 輸入樣本必須是2的次方
+
+    2. .NET 4.0 很多函式有引用到System.Numerics中的complex, 但此函式庫會跟上述提到的相衝
+
+    3. 輸出樣本僅有輸入長度的一半
+
+    4. 此函式庫有對震幅修正, 使得數據修正成正常音訊
+
+public static void FFT(bool forward, int m, Complex[] data);
+
+@ param
+ - return void
+
+ - forward(bool)
+   向前(或向後)傳播
+
+ - m (int)
+   2 ^ m 筆資料
+
+ - data (Complex[])
+   返回複數陣列
+

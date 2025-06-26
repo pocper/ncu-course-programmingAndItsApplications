@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "MyDLL": {
+      "commandName": "Project"
+    }
+  }
+}

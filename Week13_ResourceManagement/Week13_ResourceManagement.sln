@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex1_DisposePattern", "Ex1_DisposePattern\Ex1_DisposePattern.csproj", "{83CBC1E0-3245-4DEA-B8B9-C2652CB97B6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex2_DynamicLanguageRuntime", "Ex2_DynamicLanguageRuntime\Ex2_DynamicLanguageRuntime.csproj", "{CAA08DF3-7223-43FF-B59E-365D10233668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex2b_MySqlConnection", "MySqlConnection\Ex2b_MySqlConnection.csproj", "{9AF07758-8F59-43A1-ABA7-CB57CA67E60D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex3_ManagedObjectToControlExcel", "Ex03_ManagedObjectToControlExcel\Ex3_ManagedObjectToControlExcel.csproj", "{D95120A1-9DD2-444D-87C7-B6102872B410}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW13", "HW13\HW13.csproj", "{35540F6B-EA22-48B1-B146-11D47BA9CCA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83CBC1E0-3245-4DEA-B8B9-C2652CB97B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83CBC1E0-3245-4DEA-B8B9-C2652CB97B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83CBC1E0-3245-4DEA-B8B9-C2652CB97B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83CBC1E0-3245-4DEA-B8B9-C2652CB97B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA08DF3-7223-43FF-B59E-365D10233668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA08DF3-7223-43FF-B59E-365D10233668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA08DF3-7223-43FF-B59E-365D10233668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA08DF3-7223-43FF-B59E-365D10233668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF07758-8F59-43A1-ABA7-CB57CA67E60D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF07758-8F59-43A1-ABA7-CB57CA67E60D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF07758-8F59-43A1-ABA7-CB57CA67E60D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF07758-8F59-43A1-ABA7-CB57CA67E60D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D95120A1-9DD2-444D-87C7-B6102872B410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D95120A1-9DD2-444D-87C7-B6102872B410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D95120A1-9DD2-444D-87C7-B6102872B410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D95120A1-9DD2-444D-87C7-B6102872B410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35540F6B-EA22-48B1-B146-11D47BA9CCA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35540F6B-EA22-48B1-B146-11D47BA9CCA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35540F6B-EA22-48B1-B146-11D47BA9CCA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35540F6B-EA22-48B1-B146-11D47BA9CCA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35D51026-37A0-49DE-8BA7-2BC268987EBD}
+	EndGlobalSection
+EndGlobal
