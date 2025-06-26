@@ -82,6 +82,7 @@
 
 4. Week06_StringManipulator  
    HW為一個密碼強度檢察功能視窗，須滿足密碼條件(至少1個英文大寫、至少2個英文小寫、至少2個數字字元)
+
    ![pwdChecker](./Week06_StringManipulator/HW/result/pwdChecker.png)
 
 5. Week07_FileSystem  
@@ -89,7 +90,7 @@
    ![calculateSizeFolder](./Week07_FileSystem/HW/result/calculateSizeFolder.png)
 
 6. Week10_ProgrammingStructure  
-   HW為將Box.dll加入參考，可透過文字框顯示長度寬度發 生改變的時間及數值
+   HW為將Box.dll加入參考，可透過文字框顯示長度寬度發生改變的時間及數值
 
    ![Box](./Week10_ProgrammingStructure/HW/result/ex01.png)
 
@@ -131,8 +132,9 @@
     Thrd#4: 預備lock 資源: _A_
     ```
 
-11. Week15_UseFFT
-    僅需繳交使用FFT函式時的注意事項  
+11. Week15_UseFFT  
+    僅需繳交使用FFT函式時的注意事項
+
     [Notice_FFT](./Week15_UseFFT/HW/108303013.txt)
 
 ## 小考介紹
@@ -158,7 +160,7 @@
 
 5. Week07_Exam  
    設計一個座標轉換程式，可以將原本的直角座標(x, y, z)，轉換成球座標(r, theta, phi)並輸出成二進制檔案(LittleEndian or Big Endian)  
-   [直角坐標資料](./Week07_Exam/points.txt)  
+   [直角坐標資料](./Week07_Exam/data/points.txt)  
    ![coordinateConverter](./Week07_Exam/result/coordinateConverter.png)
 
 6. Week08_MidtermMockExam
@@ -237,7 +239,7 @@
 - SQLiteStudio  
   Week16_Exam中會使用到SQLiteStudio查看database  
   [SQLiteStudio - Official Website](https://sqlitestudio.pl/)
-- DLL/DB位置
+- DLL/DB位置  
   為了簡化重複上傳部分不必要的文件，請自行複製dll/database
   - Week09_MidtermExam
     ``` sh
